@@ -9,7 +9,7 @@ const Services = () => {
 <div>
       <Navbar />
       <div className='flex justify-center items-center h-2/3  mt-24 m-10 overflow-hidden'>
-        <img className='object-fit w-full h-full object-contain' src="src\images\Style Eyebrows — Hunter Projects._files\_DSC7097-scaled.jpg" alt="img" />
+        <img className='object-fit w-full h-full object-contain' src="src\images\_DSC7097-scaled.jpg" alt="img" />
       </div>
       <Footer />
     </div>

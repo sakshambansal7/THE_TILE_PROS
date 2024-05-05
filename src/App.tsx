@@ -1,11 +1,11 @@
-import React, { useEffect } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { useEffect } from 'react';
 import LocomotiveScroll from 'locomotive-scroll';
 
 import Routing from './utility/Routing.jsx';
 
 const App = () => {
   useEffect(() => {
+    
     const locomotiveScroll = new LocomotiveScroll();
     // Additional configuration or event listeners can be added here
     // Make sure to clean up any resources if necessary
@@ -15,11 +15,11 @@ const App = () => {
   }, []);
 
   return (
-    <>
-      <div className='w-full h-screen inline-block font-Roboto'>
-        <Routing />
-      </div>
-    </>
+    <div>
+
+      <Routing />
+    </div>
+    
   );
 };
 

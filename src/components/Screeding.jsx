@@ -8,7 +8,7 @@ const Screeding = () => {
     <div className=''>
     <Navbar />
     <div className='flex justify-center items-center   h-[50vh]   mt-24 mb-10 overflow-hidden'>
-      <img className='object-fit   object-contain ' src="src\images\Style Eyebrows — Hunter Projects._files\_DSC7097-scaled.jpg" alt="img" />
+      <img className='object-fit   object-contain ' src="src\images\_DSC7097-scaled.jpg" alt="img" />
     </div>
     <h1 className='text-[5vh] font-bold text-gray-800 mb-2 text-center'>SCREEDING</h1>
     <p class="text-gray-700 w-3/4 p-4  mb-5 rounded-lg text-[4vh] leading-relaxed text-center sm:text-base md:text-lg mx-auto">

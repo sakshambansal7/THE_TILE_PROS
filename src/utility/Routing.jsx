@@ -11,7 +11,6 @@ import Waterproofing from '../components/Waterproofing';
 import Tiling from '../components/Tiling';
 import TileRepairs from '../components/TileRepairs';
 import Indoor from '../components/Indoor';
-import Footer from '../components/Footer';
 function Routing() {
   return (
     <Routes>

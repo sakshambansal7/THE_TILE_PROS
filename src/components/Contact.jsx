@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { useForm, ValidationError } from '@formspree/react';
 import Navbar from './Navbar';
 import Footer from './Footer';
 
@@ -7,6 +8,20 @@ function Contact() {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
+
+    const [state, handleSubmit] = useForm("xkndkznv");
+
+    const handleFormSubmit = async (event) => {
+        event.preventDefault(); // Prevent default form submission behavior
+        try {
+            await handleSubmit(event); // Submit the form
+            if (state.succeeded) {
+                alert('Thank you for your message!'); // Display thank you message
+            }
+        } catch (error) {
+            console.error('Form submission error:', error);
+        }
+    };
 
     // State to handle form inputs
     const [user, setUser] = useState({
@@ -26,52 +41,13 @@ function Contact() {
         }));
     };
 
-    // Handle form submission
-    const handleSubmit = async (event) => {
-        event.preventDefault();
-        console.log("handle submit chla")
-
-        
-        // Send form data to the backend
-        try {
-            
-            const response = await fetch('http://localhost:5173/contact', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(user),
-            });
-            console.log("nahi chalra 1")
-
-            if (response.ok) {
-                console.log('Form submitted successfully!');
-                // Reset form data after submission
-                setUser({
-                    name: '',
-                    email: '',
-                    phoneNumber: '',
-                    location: '',
-                    message: '',
-                });
-                
-            } else {
-
-                console.log('Form submission failed.');
-            }
-        } catch (error) {
-            console.log('Error:', error);
-            console.log("nahi chalra")
-        }
-    };
-
     return (
         <div>
             <Navbar />
             <div className="flex justify-center items-center min-h-screen">
                 <div className="bg-white p-8 rounded-lg shadow-md w-1/2">
                     <h2 className="text-2xl font-bold mb-6 text-center">Contact Us</h2>
-                    <form onSubmit={handleSubmit}>
+                    <form action='https://formspree.io/f/xkndkznv' method='POST' onSubmit={handleFormSubmit}>
                         <div className="mb-4">
                             <label className="block text-gray-700 font-bold mb-2" htmlFor="name">
                                 Name:
@@ -84,6 +60,11 @@ function Contact() {
                                 onChange={handleChange}
                                 required
                                 className="w-full p-2 border border-gray-300 rounded"
+                            />
+                            <ValidationError
+                                prefix="Name"
+                                field="name"
+                                errors={state.errors}
                             />
                         </div>
 
@@ -100,6 +81,11 @@ function Contact() {
                                 required
                                 className="w-full p-2 border border-gray-300 rounded"
                             />
+                            <ValidationError
+                                prefix="Email"
+                                field="email"
+                                errors={state.errors}
+                            />
                         </div>
 
                         <div className="mb-4">
@@ -114,6 +100,11 @@ function Contact() {
                                 onChange={handleChange}
                                 required
                                 className="w-full p-2 border border-gray-300 rounded"
+                            />
+                            <ValidationError
+                                prefix="Phone Number"
+                                field="phoneNumber"
+                                errors={state.errors}
                             />
                         </div>
 
@@ -130,6 +121,11 @@ function Contact() {
                                 required
                                 className="w-full p-2 border border-gray-300 rounded"
                             />
+                            <ValidationError
+                                prefix="Location"
+                                field="location"
+                                errors={state.errors}
+                            />
                         </div>
 
                         <div className="mb-4">
@@ -144,6 +140,11 @@ function Contact() {
                                 required
                                 className="w-full p-2 border border-gray-300 rounded"
                                 rows="5"
+                            />
+                            <ValidationError
+                                prefix="Message"
+                                field="message"
+                                errors={state.errors}
                             />
                         </div>
 

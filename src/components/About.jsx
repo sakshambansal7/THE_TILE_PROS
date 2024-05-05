@@ -8,7 +8,7 @@ const About = () => {
     <>
       <Navbar />
       <div className='flex justify-center flex-col items-center mt-24 m-5 overflow-hidden'>
-  <img className='object-fit w-1/2 h-1/3 object-contain bg-cover bg-center' src="src\images\Style Eyebrows — Hunter Projects._files\_DSC7097-scaled.jpg" alt="img" />
+  <img className='object-fit w-1/2 h-1/3 object-contain bg-cover bg-center' src="src\images\_DSC7097-scaled.jpg" alt="img" />
   <h1 className='text-[#7A7A7A] text-[5vh]'>About Us</h1>
   <div className="w-3/4 p-4 bg-gray-100 rounded-lg">
     <p className="text-[3.5vh] leading-relaxed text-center">"The Tile Pros offer expert, insured, and dependable tiling & waterproofing services, catering to both residential and commercial clients throughout Victoria. With a strong commitment to quality, our extensive experience in the industry has made us a trusted name. Our team at The Tile Pros is dedicated to curating a diverse selection of premium tiles in our warehouse, including unique handmade options tailored to suit your budget."</p>
@@ -36,9 +36,9 @@ const About = () => {
     <h1 class="text-[5vh] font-bold text-gray-800 mb-2 text-center">ABOUT SATYAM GUPTA</h1>
     <p class="text-gray-700 text-[3.5vh] leading-relaxed text-center">Satyam Gupta established THE TILE PROS after completing his apprenticeship with success. Since its inception, the aspiration has been to cultivate the company into a distinguished brand within Melbourne. With a dedicated team comprising over 13 tilers, estimators, and an operations manager, THE TILE PROS confidently ensures timely and budget-conscious completion of projects, regardless of size.</p>
   </div>
-  <div class="hidden md:block md:w-1/3 relative">
+  {/* <div class="hidden md:block md:w-1/3 relative">
     <img src="https://via.placeholder.com/400" alt="John Doe" class="object-cover w-full h-full absolute inset-0" />
-  </div>
+  </div> */}
 </div>
 
 <div class="flex mt-12 justify-center">
@@ -57,9 +57,9 @@ const About = () => {
   <div class="w-full md:w-2/3 p-6">
     <h1 class="text-[5vh] font-bold text-gray-800 mb-2 text-center">GET YOUR COMPLIMENTARY QUOTE
 </h1>
-    <p class="text-gray-700 text-[3.5vh] leading-relaxed text-center  bg-gray-100 rounded-lg">Certainly! Here's the rewritten text for your website:
+    <p class="text-gray-700 text-[3.5vh] leading-relaxed text-center  bg-gray-100 rounded-lg">
 
-"We frequently receive inquiries about whether we can offer quotes without requiring an in-person meeting, and the answer is absolutely! If you're pressed for time and unable to schedule an appointment at our warehouse or meet face-to-face on-site, we're more than happy to provide a rough estimate of the work you require via email. Alternatively, please feel free to reach out to us at +61451580078 to explore this option further."</p>
+We frequently receive inquiries about whether we can offer quotes without requiring an in-person meeting, and the answer is absolutely! If you're pressed for time and unable to schedule an appointment at our warehouse or meet face-to-face on-site, we're more than happy to provide a rough estimate of the work you require via email. Alternatively, please feel free to reach out to us at +61451580078 to explore this option further.</p>
   </div>
 </div>
 
