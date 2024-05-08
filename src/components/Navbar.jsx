@@ -1,21 +1,23 @@
 import React, { useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
+import { GiHamburgerMenu } from "react-icons/gi";
+
 import { motion } from 'framer-motion';
 import './Navbar.css';
 
 const Navbar = () => {
-    const location = useLocation();
+    // const location = useLocation();
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
     const handleMouseEnter = () => setIsDropdownOpen(true);
     const handleMouseLeave = () => setIsDropdownOpen(false);
 
     return (
-        <div className='h-20 flex gap-56'>
+        <div className=' h-20 flex gap-56'>
             <motion.div className='h-30 w-60 mb-12 mt-5 ml-10'>
                 <img src="src/images/Screenshot 2024-02-21 093027.png" alt="bgimage" />
             </motion.div>
-            <div className='flex text-[1.7vw] font-normal gap-14 justify-center align-center font-roboto my-10 mt-20'>
+            <div className=' sm:hidden md:flex text-[1.7vw] font-normal gap-14 justify-center align-center font-roboto my-10 mt-20'>
                 <NavLink
                     to="/"
                     id='home'
@@ -94,6 +96,14 @@ const Navbar = () => {
                         61451580078
                     </NavLink>
                 </motion.div>
+            </div>
+            <div className='sm:block md:hidden  hamburger-menu  justify-center align-center text-[5vh]'>
+                <a href="#"
+                className=''>
+            <GiHamburgerMenu />
+
+                </a>
+
             </div>
         </div>
     );
