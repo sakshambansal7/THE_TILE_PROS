@@ -8,14 +8,14 @@ const Waterproofing = () => {
     <div className=''>
     <Navbar />
     <div className='flex justify-center items-center   h-[50vh]   mt-24 mb-10 overflow-hidden'>
-      <img className='object-fit   object-contain ' src="..\public\images\_DSC7097-scaled.jpg" alt="img" />
+      <img className='object-fit   object-contain ' src="src\images\_DSC7097-scaled.jpg" alt="img" />
     </div>
     <h1 className='text-[5vh] font-bold text-gray-800 mb-2 text-center'>WATER PROOFING</h1>
     <p class="text-zinc-700 w-[50vw] p-4  mb-5 rounded-lg text-[4vh] leading-relaxed text-center sm:text-base md:text-lg mx-auto">
     When it comes to building or renovating a home, ensuring proper waterproofing is crucial. Incorrect waterproofing can lead to serious damage to your home's structural timbers and cause issues with mold and dampness. At The Tile Pros, our team is dedicated to providing professional and effective waterproofing services to protect your home.</p>
 
     <div className='unique flex justify-between m-10 p-5'>
-    <img className='w-[40vw]' src="..\public\images\Screenshot 2024-04-10 234314.png" alt="" />
+    <img className='w-[40vw]' src="src\images\Screenshot 2024-04-10 234314.png" alt="" />
     <div className='w-[50vw]'>
         <h1 className='text-zinc-500 text-[5vh] font-semibold'>EXPERT WATERPROOFING SPECIALISTS</h1>
         <p className="text-[#7A7A7A] text-[3.5vh] leading-[1.2]">Ensuring your home is properly waterproofed is essential for protecting its structure and maintaining its longevity. Proper waterproofing prevents moisture damage, mold, and rot, which can have a devastating impact on your home over time. <br/><br/>
@@ -36,8 +36,8 @@ Trust The Tile Pros to handle your waterproofing needs with professionalism and 
 When it comes to crucial tasks like waterproofing, you can trust that The Tile Pros will handle it professionally, efficiently, and affordably. Reach out to us today to discuss your project and receive a free quote. Let us help bring your vision to life.</p>
 
         <div className="flex gap-10 ">
-            <img className='h-[40vh] w-[50vh]'  src="..\public\images\Screenshot 2024-04-10 234141.png" alt="Image 1" /> 
-            <img className='h-[40vh] w-[50vh]' src="..\public\images\Screenshot 2024-04-10 234300.png" alt="Image 2" /> 
+            <img className='h-[40vh] w-[50vh]'  src="src\images\Screenshot 2024-04-10 234141.png" alt="Image 1" /> 
+            <img className='h-[40vh] w-[50vh]' src="src\images\Screenshot 2024-04-10 234300.png" alt="Image 2" /> 
         </div>
     </div>
 

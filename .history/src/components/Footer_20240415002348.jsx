@@ -28,13 +28,13 @@ const Footer = () => {
       </div>
       <div className='flex justify-center gap-14 h-56 p-4'>
         <a  target="_blank" rel="noopener noreferrer">
-          <img className='w-52 h-24 filter grayscale hover:filter-none transition duration-300 mt-10 hover:scale-110' src="..\public\images\australia.webp" alt="img" />
+          <img className='w-52 h-24 filter grayscale hover:filter-none transition duration-300 mt-10 hover:scale-110' src="src\images\australia.webp" alt="img" />
         </a>
         <a  target="_blank" rel="noopener noreferrer">
-          <img className='w-52 h-24 filter grayscale hover:filter-none transition duration-300 mt-10 hover:scale-110' src="..\public\images\member.webp" alt="img" />
+          <img className='w-52 h-24 filter grayscale hover:filter-none transition duration-300 mt-10 hover:scale-110' src="src\images\member.webp" alt="img" />
         </a>
         <a  target="_blank" rel="noopener noreferrer">
-          <img className='w-52 h-24 filter grayscale hover:filter-none transition duration-300 mt-10 hover:scale-110' src="..\public\images\womo.webp" alt="img" />
+          <img className='w-52 h-24 filter grayscale hover:filter-none transition duration-300 mt-10 hover:scale-110' src="src\images\womo.webp" alt="img" />
         </a>
       </div>
       <div className='bg-black  flex flex-col justify-center items-center'>
@@ -49,7 +49,7 @@ const Footer = () => {
             <FaYoutube className='w-12 h-12 m-12 hover:scale-110' style={{ color: "white" }} />
           </a>
         </div>
-        <img className='h-52 w-82 ' src="..\public\images\WhatsApp Image 2024-02-20 at 12.53.31_02518d84.jpg" alt="" />
+        <img className='h-52 w-82 ' src="src\images\WhatsApp Image 2024-02-20 at 12.53.31_02518d84.jpg" alt="" />
         <h1 className="text-white p-5">Copyright 2024 | All rights reserved | Powered by Saksham</h1>
       </div>
     </>

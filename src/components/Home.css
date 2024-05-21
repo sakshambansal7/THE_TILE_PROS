@@ -1,0 +1,18 @@
+@media (max-width: 640px) {
+
+    .portfolio{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .bakery{
+        width: 100%;
+        margin-bottom: 2rem;
+    
+    }
+
+    .portfolio h1,p{
+font-size: 32px;
+letter-spacing: normal;
+
+    }
+}

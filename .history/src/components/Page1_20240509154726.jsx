@@ -9,7 +9,7 @@ const Page1 = () => {
       <div className=' flex justify-center'>
 
         <div className='w-[76vw]  mt-20  rounded-'>
-          <img src="..\public\images\bakery (2).jpg" alt="" />
+          <img src="src\images\bakery (2).jpg" alt="" />
         </div>
       </div>
       <h1 className=' text-[5vh] font-bold text-center'>WELCOME TO TILE PROS</h1>
@@ -37,7 +37,7 @@ const Page1 = () => {
         <img className='w-1/2 p-5 m-5'src="https://images.unsplash.com/photo-1595187139760-5cedf9ab5850?q=80&w=1862&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="img" />
     </div>
     <div className='unique flex justify-between m-10 p-5'>
-          <img className='w-[40vw] ' src="..\public\images\Carvery-Club-Melton_16_3000x2000_U_100_Long+Edge_Scaled.jpg" alt="" />
+          <img className='w-[40vw] ' src="src\images\Carvery-Club-Melton_16_3000x2000_U_100_Long+Edge_Scaled.jpg" alt="" />
           <div className=' w-[50vw]'>
             <h1 className='text-[#7A7A7A] text-[5vh]' >the unique craftsmanship of The TilePros</h1>
             <p className=" text-[#7A7A7A] text-[3.5vh]  leading-[1.2]">In Melbourne's bustling tiling scene, The Tile Pros stand out from the crowd with our unwavering commitment to excellence in every aspect of our work. Our top priority is to deliver outstanding service, treating each project as if it were in our own homes. Our dedication to perfectionism ensures that every job receives meticulous attention to detail without sacrificing efficiency or punctuality. We believe in the importance of transparency, keeping you informed at every stage of the process. When you choose The Tile Pros for your next tiling project, you're choosing reliability, professionalism, and a team that truly cares about delivering exceptional results.</p>

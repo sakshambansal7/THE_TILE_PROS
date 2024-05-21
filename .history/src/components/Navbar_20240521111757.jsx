@@ -15,7 +15,7 @@ const Navbar = () => {
     return (
         <div className=' h-20 hello1 flex gap-56'>
             <motion.div className='h-30 w-60 mb-12 mt-5 ml-10'>
-                <img src="..\public\images\Screenshot 2024-02-21 093027.png" alt="bgimage" />
+                <img src="/src/images/Screenshot 2024-02-21 093027.png" alt="bgimage" />
             </motion.div>
             <div className=' sm:hidden md:flex text-[1.7vw] font-normal gap-14 justify-center align-center font-roboto my-10 mt-20'>
                 <NavLink

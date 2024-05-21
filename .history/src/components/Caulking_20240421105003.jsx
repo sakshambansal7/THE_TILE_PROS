@@ -8,14 +8,14 @@ const Caulking = () => {
     <div className=''>
     <Navbar />
     <div className='flex justify-center items-center   h-[50vh]   mt-24 mb-10 overflow-hidden'>
-      <img className='object-fit   object-contain ' src="..\public\images\_DSC7097-scaled.jpg" alt="img" />
+      <img className='object-fit   object-contain ' src="src\images\_DSC7097-scaled.jpg" alt="img" />
     </div>
     <h1 className='text-[5vh] font-bold text-gray-800 mb-2 text-center'>CAULKING</h1>
     <p class="text-gray-700 w-3/4 p-4  mb-5 rounded-lg text-[4vh] leading-relaxed text-center sm:text-base md:text-lg mx-auto">
     Caulking not only enhances the appearance of your tiled areas but is also essential for sealing gaps between surfaces to block water intrusion. At The Tile Pros, we expertly handle caulking projects with efficiency and professionalism, ensuring your space is protected and visually appealing.</p>
 
     <div class='unique flex justify-between m-10 p-5'>
-    <img class='w-[40vw]' src="..\public\images\caulking.webp" alt='Tile Repairing Image' />
+    <img class='w-[40vw]' src="src\images\caulking.webp" alt='Tile Repairing Image' />
     <div class='w-[50vw]'>
         <h1 class='text-zinc-500 text-[5vh] font-semibold'>EXPERT CAULKING SPECIALISTS</h1>
         <p class='text-[#7A7A7A] text-[3.5vh] leading-[1.2]'>
@@ -38,13 +38,13 @@ const Caulking = () => {
         </p>
 
         <div className="flex gap-10 ">
-            <img className='h-[40vh] w-[50vh]' src="..\public\images\Screenshot 2024-04-10 234141.png" alt="Image 1" /> 
-            <img className='h-[40vh] w-[50vh]' src="..\public\images\Screenshot 2024-04-10 234300.png" alt="Image 2" />
+            <img className='h-[40vh] w-[50vh]' src="src\images\Screenshot 2024-04-10 234141.png" alt="Image 1" /> 
+            <img className='h-[40vh] w-[50vh]' src="src\images\Screenshot 2024-04-10 234300.png" alt="Image 2" />
         </div>
     </div>
 
     <div class="flex-1 fit">
-        <img className='h-[108vh] w-[100vh]' src="..\public\images\caulking2.avif" alt="Big Image" />
+        <img className='h-[108vh] w-[100vh]' src="src\images\caulking2.avif" alt="Big Image" />
     </div>
 </div>
 

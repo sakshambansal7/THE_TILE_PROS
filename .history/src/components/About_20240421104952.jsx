@@ -8,7 +8,7 @@ const About = () => {
     <>
       <Navbar />
       <div className='flex justify-center flex-col items-center mt-24 m-5 overflow-hidden'>
-  <img className='object-fit w-1/2 h-1/3 object-contain bg-cover bg-center' src="..\public\images\_DSC7097-scaled.jpg" alt="img" />
+  <img className='object-fit w-1/2 h-1/3 object-contain bg-cover bg-center' src="src\images\_DSC7097-scaled.jpg" alt="img" />
   <h1 className='text-[#7A7A7A] text-[5vh]'>About Us</h1>
   <div className="w-3/4 p-4 bg-gray-100 rounded-lg">
     <p className="text-[3.5vh] leading-relaxed text-center">"The Tile Pros offer expert, insured, and dependable tiling & waterproofing services, catering to both residential and commercial clients throughout Victoria. With a strong commitment to quality, our extensive experience in the industry has made us a trusted name. Our team at The Tile Pros is dedicated to curating a diverse selection of premium tiles in our warehouse, including unique handmade options tailored to suit your budget."</p>
@@ -16,13 +16,13 @@ const About = () => {
   <div className='second flex justify-between m-5 p-2  mt-20 gap-10'>
     <div className='fst-image'>
 
-  <img className=' w-[46vw]'  src="..\public\images\in.jpeg" alt="" />
+  <img className=' w-[46vw]'  src="src\images\in.jpeg" alt="" />
     </div>
     <div className='part2  w-1/2 gap-5'>
       <div className='image-split flex w-1/2 gap-3 m-2 '>
 
-      <img  src="..\public\images\Style Eyebrows — Hunter Projects._files\_DSC7097-scaled.jpg" alt="" />
-      <img src="..\public\images\Style Eyebrows — Hunter Projects._files\_DSC7418-scaled.jpg" alt="" />
+      <img  src="src\images\Style Eyebrows — Hunter Projects._files\_DSC7097-scaled.jpg" alt="" />
+      <img src="src\images\Style Eyebrows — Hunter Projects._files\_DSC7418-scaled.jpg" alt="" />
       </div>
     <div className=' '>
 
@@ -43,13 +43,13 @@ const About = () => {
 
 <div class="flex mt-12 justify-center">
   <div class="flex flex-wrap w-1/2 gap-8">
-    <img class='w-[20vw]' src="..\public\images\299-High-007-Resize.jpg" alt="Image 1"/>
-    <img class='w-[20vw]' src="..\public\images\299-High-008-Resize.jpg" alt="Image 2"/>
-    <img class='w-[20vw]' src="..\public\images\Carvery-Club-Melton_16_3000x2000_U_100_Long+Edge_Scaled.jpg" alt="Image 3"/>
-    <img class='w-[20vw]' src="..\public\images\HP_SpudBAR-The-Glen_15_Full+resolution_8688x5792_U_100_Adobe_1920.jpg" alt="Image 4"/>
+    <img class='w-[20vw]' src="src\images\299-High-007-Resize.jpg" alt="Image 1"/>
+    <img class='w-[20vw]' src="src\images\299-High-008-Resize.jpg" alt="Image 2"/>
+    <img class='w-[20vw]' src="src\images\Carvery-Club-Melton_16_3000x2000_U_100_Long+Edge_Scaled.jpg" alt="Image 3"/>
+    <img class='w-[20vw]' src="src\images\HP_SpudBAR-The-Glen_15_Full+resolution_8688x5792_U_100_Adobe_1920.jpg" alt="Image 4"/>
   </div>
   <div class="w-1/3 h-2/3 ml-4">
-    <img src="..\public\images\HP_SpudBAR-The-Glen_07_Full+resolution_5792x8688_U_100_Adobe_1200.jpg" alt="Image 5"/>
+    <img src="src\images\HP_SpudBAR-The-Glen_07_Full+resolution_5792x8688_U_100_Adobe_1200.jpg" alt="Image 5"/>
   </div>
 </div>
 
